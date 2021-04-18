@@ -1,0 +1,28 @@
+.About{
+    height: 650px;
+}
+.About h3{
+    color: crimson;
+}
+.About button{
+    padding: 10px 24px;
+    color: #fff;
+    background-color: #000;
+    border-radius: 30px;
+}
+.About button:hover{
+    color: #f2f2f2;
+}
+
+@media only screen and (max-width: 600px) {
+    .About{
+        height: auto;
+    }
+    .About button{
+        font-size: 16px;
+        border-radius: 0px;
+    }
+    .About-content{
+        margin: 2rem 0;
+    }
+}

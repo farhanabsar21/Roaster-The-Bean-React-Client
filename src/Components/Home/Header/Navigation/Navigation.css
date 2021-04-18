@@ -1,0 +1,12 @@
+.brand-logo{
+    height: 50px;
+}
+.login-btn{
+    background-color: #fff;
+    padding: 0 24px; 
+    border-radius: 20px;
+}
+.login-btn a{
+    text-align: center;
+    font-weight: 600;
+}

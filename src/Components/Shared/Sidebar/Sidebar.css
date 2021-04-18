@@ -1,0 +1,14 @@
+.sidebar-container{
+    background-color: black;
+    height: 100vh;
+}
+.sidebar-container img{
+    height: 50px;
+}
+.sidebar-container ul li{
+    list-style-type: none;
+}
+.sidebar-container a{
+    text-decoration: none;
+    color: #fff;
+}

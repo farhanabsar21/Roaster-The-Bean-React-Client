@@ -1,0 +1,21 @@
+.project-details img{
+    height: 200px;
+    width: 300px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.image-wrapper{
+    overflow: hidden;
+    height: 200px;
+    width: 300px;
+    border-radius: 15px;
+}
+.project-details img:hover{
+    opacity: 0.7;
+    transform: scale(1.2);
+}
+.project-details p.client{
+    color: crimson;
+    font-weight: 600;
+}

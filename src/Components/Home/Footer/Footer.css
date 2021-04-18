@@ -1,0 +1,27 @@
+.Footer{
+    height: 600px;
+    width: 100%;
+    background-color: #000;
+    clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
+}
+.Footer h4{
+    color: #fff;
+}
+.Footer ul li{
+    list-style-type: none;
+    color: #fff;
+    cursor: pointer;
+    margin: 5px 0;
+}
+.footer-container{
+    height: 100%;
+}
+@media only screen and (max-width: 600px){
+    .Footer{
+        height: auto;
+        text-align: center;
+    }
+    .Footer h4{
+        margin-top: 2rem;
+    }
+}

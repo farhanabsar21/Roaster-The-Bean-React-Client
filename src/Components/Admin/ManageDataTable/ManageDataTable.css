@@ -1,0 +1,9 @@
+.manage-data-table button{
+    background-color: crimson;
+    color: #fff;
+    padding: 6px 24px;
+    border-radius: 30px;
+}
+.manage-data-table button:hover{
+    color: #fff;
+}

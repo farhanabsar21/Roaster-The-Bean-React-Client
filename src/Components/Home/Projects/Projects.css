@@ -1,0 +1,10 @@
+.Projects{
+    height: 650px;
+    width: 100%;
+}
+@media only screen and (max-width: 600px){
+    .Projects{
+        height: auto;
+        margin-top: 3rem;
+    }
+}

@@ -1,0 +1,25 @@
+.Review-content {
+    background-color: #fff;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.Review-content:hover{
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+.designation{
+    color: crimson;
+    font-style: italic;
+    font-size: 14px;
+}
+.Review-content img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+@media only screen and (max-width: 600px){
+    .Review-content{
+        margin-top: 1rem;
+    }
+}

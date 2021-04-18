@@ -1,0 +1,24 @@
+.AddReview input, .AddReview textarea{
+    width: 100%;
+    padding: 10px 16px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #fff;
+    margin: 5px;
+    background-color: #f2f2f2;
+    font-size: 16px;
+    transition: 0.5s;
+}
+.AddReview input:focus, .AddReview textarea:focus{
+    border-bottom: 2px solid #000;
+    background-color: #fff;
+}
+.AddReview button{
+    padding: 8px 46px;
+    border-radius: 30px;
+    background-color: #000;
+    color: #fff;
+}
+.AddReview button:hover{
+    color: #fff;
+}
